@@ -30,6 +30,21 @@
     <ClInclude Include="Resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="agg_array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="agg_basics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="agg_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="agg_conv_clipper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clipper.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="NewClipping.cpp">
@@ -41,6 +56,9 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="clipper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="NewClipping.rc">
@@ -50,6 +68,12 @@
   <ItemGroup>
     <None Include="res\NewClipping.rc2">
       <Filter>Resource Files</Filter>
+    </None>
+    <None Include="clipper_test.vcxproj">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="clipper_test.vcxproj.filters">
+      <Filter>Source Files</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

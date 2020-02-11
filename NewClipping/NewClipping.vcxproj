@@ -183,6 +183,11 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="agg_array.h" />
+    <ClInclude Include="agg_basics.h" />
+    <ClInclude Include="agg_config.h" />
+    <ClInclude Include="agg_conv_clipper.h" />
+    <ClInclude Include="clipper.hpp" />
     <ClInclude Include="NewClipping.h" />
     <ClInclude Include="NewClippingDlg.h" />
     <ClInclude Include="Resource.h" />
@@ -190,6 +195,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="clipper.cpp" />
     <ClCompile Include="NewClipping.cpp" />
     <ClCompile Include="NewClippingDlg.cpp" />
     <ClCompile Include="stdafx.cpp">
@@ -203,6 +209,8 @@
     <ResourceCompile Include="NewClipping.rc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="clipper_test.vcxproj" />
+    <None Include="clipper_test.vcxproj.filters" />
     <None Include="res\NewClipping.rc2" />
   </ItemGroup>
   <ItemGroup>
